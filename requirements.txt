@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-openai
+httpx
+python-dotenv
+pydantic
+requests
+streamlit
+openai
+PyPDF2
+pdflatex
+fpdf
