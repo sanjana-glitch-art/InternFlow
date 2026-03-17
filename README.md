@@ -1,6 +1,6 @@
 # 🚀 InternFlow AI
 
-> **Autonomous resume tailoring powered by NVIDIA Nemotron — built at SJSU Agents for Impact Hackathon 2026**
+> **Autonomous resume tailoring powered by NVIDIA Nemotron - built at SJSU Agents for Impact Hackathon 2026**
 
 <div align="center">
 
@@ -16,22 +16,22 @@
 
 ## 🧠 What Is InternFlow AI?
 
-Students applying to 80+ internships spend 10–15 hours a week manually tailoring resumes. ATS filters reject 75% of applications before a human ever reads them — not because the candidate is unqualified, but because their resume doesn't speak the recruiter's language for that specific role.
+Students applying to 80+ internships spend 10–15 hours a week manually tailoring resumes. ATS filters reject 75% of applications before a human ever reads them - not because the candidate is unqualified, but because their resume doesn't speak the recruiter's language for that specific role.
 
 **InternFlow AI solves this autonomously.**
 
-Paste a job description. InternFlow reads your resume, scrapes your GitHub, selects your 3 best projects for that role, and rewrites your resume in the recruiter's exact vocabulary — in under 2 minutes. Powered entirely by NVIDIA Nemotron.
+Paste a job description. InternFlow reads your resume, scrapes your GitHub, selects your 3 best projects for that role, and rewrites your resume in the recruiter's exact vocabulary - in under 2 minutes. Powered entirely by NVIDIA Nemotron.
 
 ---
 
 ## ✨ Features
 
-- 🔍 **Live Job Listings** — Browse active internships via Simplify Jobs, filtered by role and location
-- 🧠 **3-Node Nemotron Pipeline** — Autonomous keyword diagnosis, project selection, and resume rewriting
-- 🐙 **GitHub Integration** — Auto-scrape your repos, READMEs, and tech stack into a project portfolio
-- 📄 **ATS-Optimized Resume** — Rewritten in the recruiter's exact vocabulary, never fabricated
-- 📋 **Application Tracker** — Track every application, resume version used, and current status
-- 🗂️ **Resume Arsenal** — Store and manage all your tailored resume versions
+- 🔍 **Live Job Listings**: Browse active internships via Simplify Jobs, filtered by role and location
+- 🧠 **3-Node Nemotron Pipeline** : Autonomous keyword diagnosis, project selection, and resume rewriting
+- 🐙 **GitHub Integration** : Auto-scrape your repos, READMEs, and tech stack into a project portfolio
+- 📄 **ATS-Optimized Resume** : Rewritten in the recruiter's exact vocabulary, never fabricated
+- 📋 **Application Tracker** : Track every application, resume version used, and current status
+- 🗂️ **Resume Arsenal** : Store and manage all your tailored resume versions
 
 ---
 
@@ -75,8 +75,8 @@ Job Description + Resume + GitHub Projects
 
 | Model | Node | Why |
 |---|---|---|
-| `nvidia/llama-3.3-nemotron-super-49b-v1` | 1 + 3 | Deep reasoning — semantic JD understanding + nuanced language rewriting |
-| `nvidia/llama-3.1-nemotron-nano-8b-v1` | 2 | Fast classification — project ranking doesn't need 49B parameters, runs 6× faster |
+| `nvidia/llama-3.3-nemotron-super-49b-v1` | 1 + 3 | Deep reasoning - semantic JD understanding + nuanced language rewriting |
+| `nvidia/llama-3.1-nemotron-nano-8b-v1` | 2 | Fast classification - project ranking doesn't need 49B parameters, runs 6× faster |
 
 ---
 
@@ -149,7 +149,7 @@ GITHUB_TOKEN=ghp-your-token-here
 
 Get your keys:
 - **NVIDIA API Key** → [build.nvidia.com](https://build.nvidia.com)
-- **GitHub Token** → [github.com/settings/tokens](https://github.com/settings/tokens) *(no scopes needed for public repos)*
+- **GitHub Token** → [github.com/settings/tokens](https://github.com/settings/tokens)
 
 ### 5. Run the backend
 
@@ -171,11 +171,11 @@ streamlit run app.py
 
 ## 🚀 How To Use
 
-1. **Set Up Profile** — Go to the Profile page, fill in your details, upload your resume PDF, and import your GitHub projects
-2. **Browse Jobs** — Search live internship listings by role and location
-3. **Analyse with AI** — Click "Analyse with AI" on any job card to run the full Nemotron pipeline
-4. **Get Your Resume** — Download the tailored, ATS-optimised resume
-5. **Track Applications** — Save jobs and track your application status
+1. **Set Up Profile** - Go to the Profile page, fill in your details, upload your resume PDF, and import your GitHub projects
+2. **Browse Jobs** - Search live internship listings by role and location
+3. **Analyse with AI** - Click "Analyse with AI" on any job card to run the full Nemotron pipeline
+4. **Get Your Resume** - Download the tailored, ATS-optimised resume
+5. **Track Applications** - Save jobs and track your application status
 
 ---
 
@@ -202,47 +202,9 @@ streamlit run app.py
 | `NVIDIA_API_KEY` | [build.nvidia.com](https://build.nvidia.com) | Nemotron model inference via NIM |
 | `GITHUB_TOKEN` | [github.com/settings/tokens](https://github.com/settings/tokens) | GitHub repo scraping (5000 req/hr vs 60 without) |
 
----
-
-## 📊 Results
-
-| Metric | Value |
-|---|---|
-| Average ATS score improvement | **+42%** |
-| Time saved per application | **~12 minutes** |
-| Pipeline end-to-end | **< 2 minutes** |
-| Resume fabrication | **0%** — never invents experience |
-
----
-
-## 👥 Team
-
-Built at the **SJSU Agents for Impact Hackathon 2026** — hosted by NVIDIA.
-
-| Name | Role |
-|---|---|
-| Sanjana | AI Engineer · Nemotron Pipeline · LangGraph |
-| Sreeram Achutuni | Backend Engineer · FastAPI · REST |
-| Lakshminarayana Malyala | Integration · Full Stack |
-| Sravani Gurram | Frontend · UI/UX · Demo |
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
 ## 🙏 Acknowledgements
 
 - [NVIDIA NIM](https://build.nvidia.com) — for Nemotron model access
 - [LangGraph](https://langchain-ai.github.io/langgraph/) — for agentic pipeline orchestration
 - [Simplify Jobs](https://github.com/SimplifyJobs/Summer2025-Internships) — for internship listings
 - SJSU & NVIDIA — for hosting the Agents for Impact Hackathon
-
----
-
-<div align="center">
-  <sub>Built with ❤️ using NVIDIA Nemotron · SJSU Agents for Impact Hackathon 2026</sub>
-</div>
