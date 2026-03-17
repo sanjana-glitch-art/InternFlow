@@ -1,4 +1,4 @@
-# 🚀 InternFlow AI
+# 🚀 InternFlow
 
 > **Autonomous resume tailoring powered by NVIDIA Nemotron - built at SJSU Agents for Impact Hackathon 2026**
 
@@ -14,11 +14,11 @@
 
 ---
 
-## 🧠 What Is InternFlow AI?
+## 🧠 What Is InternFlow?
 
 Students applying to 80+ internships spend 10–15 hours a week manually tailoring resumes. ATS filters reject 75% of applications before a human ever reads them - not because the candidate is unqualified, but because their resume doesn't speak the recruiter's language for that specific role.
 
-**InternFlow AI solves this autonomously.**
+**InternFlow solves this autonomously.**
 
 Paste a job description. InternFlow reads your resume, scrapes your GitHub, selects your 3 best projects for that role, and rewrites your resume in the recruiter's exact vocabulary - in under 2 minutes. Powered entirely by NVIDIA Nemotron.
 
